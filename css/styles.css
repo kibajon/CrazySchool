@@ -1,0 +1,94 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color:#E0DFDE;
+}
+
+.page-header > h1 {
+  padding-top: 60px;
+}
+.link {
+  font-family: 'Lily Script One' cursive;
+  font-size: 30px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+  display: block;
+  color: #34302d;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  border: 2.5px solid #34302d;
+  height:230px;
+    
+}
+
+.link:hover {
+  color: #6350EE;
+  box-shadow: 0 0 8px #6db33f;
+  border-color: #6db33f;
+  text-decoration: none;
+  background-color:#ECECEC;
+}
+
+.logo {
+  height: 90px;
+  width: 90px;
+}
+
+.namings{
+    font-family: 'Fugaz One', cursive;
+    font-size:45px;
+    color:#076475;;
+    text-align:center;
+    letter-spacing:4px;
+}
+
+.logo_namings{
+    text-align:center;
+    font-family:'Lily Script One' cursive;
+    padding-top:5px;
+    letter-spacing:5px;
+}
+.navabar-top-green-line{
+    border-top: 4px solid #6db33f;
+}
+
+.list--slider {
+position: absolute;
+right: 50px;
+top: -5px;
+}
+
+.is-selecting .list--slider-dropdown {
+height: auto;
+opacity: 1;
+overflow: visible;
+visibility: visible;
+right: -50px;
+webkit-transition: all 0.2s 0.2s;
+-webkit-transition-delay: ease-in-out;
+-moz-transition: all 0.2s 0.2s ease-in-out;
+-o-transition: all 0.2s 0.2s ease-in-out;
+transition: all 0.2s 0.2s ease-in-out;
+height: 0;
+opacity: 0;
+overflow: hidden;
+position: absolute;
+right: -515px;
+top: 5px;
+visibility: hidden;
+width: 460px;
+}  
+
+.list--slider-path--ruby {
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+background: #2a3640;
+color: #fff;
+}
+}
