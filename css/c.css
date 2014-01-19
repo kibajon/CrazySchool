@@ -1,0 +1,61 @@
+
+#link {
+  font-family: 'Lily Script One' cursive;
+  font-size: 30px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+  display: block;
+  color: #34302d;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  border: 2.5px solid #34302d;
+  height:230px;
+    
+}
+
+#link:hover {
+  color: #6350EE;
+  box-shadow: 0 0 8px #6db33f;
+  border-color: #6db33f;
+  text-decoration: none;
+  background-color:#ECECEC;
+}
+.center-box{
+position:relative;
+z-index:1;    
+margin:auto;
+margin-top:100px;     
+height:200px;
+width:200px;
+border:4px solid #6db33f;
+background-color:black;    
+-moz-border-radius-topleft: 100px;
+-moz-border-radius-topright: 100px;
+-moz-border-radius-bottomright: 100px;
+-moz-border-radius-bottomleft: 100px;
+
+-webkit-border-top-left-radius: 100px;
+-webkit-border-top-right-radius: 100px;
+-webkit-border-bottom-right-radius: 100px;
+-webkit-border-bottom-left-radius: 100px;
+}
+.twister{
+    width:50%;
+    height:1585px;
+    margin-top:-300px;
+}
+
+.small-box{
+    margin-top:300px;
+    width:500px;
+    height:300px;
+    font-size: 100%;
+    padding:10px;
+    border:2px solid black;
+    font: inherit;
+    vertical-align: baseline;
+}
