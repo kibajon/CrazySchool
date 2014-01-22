@@ -63,3 +63,19 @@ body {
   margin-left: 10px;
   border:2px solid black;
 }
+.link_direction{
+    text-decoration:none;
+    font-size:25px;
+    color:darkblue;
+}
+.small_link_directions{
+    color:#007C9B;
+    font-size:30px;
+    text-align:center;
+}
+
+.description{
+    font: inherit;
+    vertical-align: baseline;
+    font-size: 20px;
+}
