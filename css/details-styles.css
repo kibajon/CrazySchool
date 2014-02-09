@@ -58,7 +58,7 @@ body {
 }
 
 .right-half {
-  background-color: #F8F8F8;
+  /*background-color: #F8F8F8;*/
   width: 50%;
   position: absolute;
   right: 0px;
@@ -68,7 +68,7 @@ body {
 .small-box{
   padding:10px;
   margin-left: 10px;
-  border:2px solid black;
+  /*border:2px solid black;*/
 }
 .link_direction{
     text-decoration:none;
