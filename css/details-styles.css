@@ -52,6 +52,12 @@
   font-size: 120px;
 }
 
+.center-box-text-long{
+  color: white;
+  line-height: 200px;
+  text-align: center;
+  font-size: 90px;
+}
 body {
   /*fake the "left half" background*/
   background-color: #E7E7E7;
@@ -94,7 +100,7 @@ body {
 /* Carousel base class */
 .carousel {
   height: 500px;
-  margin-bottom: 60px;
+  margin-bottom: 7px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -104,10 +110,14 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-  background-color: #777;
+  background-color:#E7E7E7;
 }
 .carousel-inner > .item > img {
   position: absolute;
+  padding-right: 230px;
+  padding-left: 230px;
+  margin-right: auto;
+  margin-left: auto;
   top: 0;
   left: 0;
   min-width: 100%;
