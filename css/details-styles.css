@@ -56,8 +56,9 @@
   color: white;
   line-height: 200px;
   text-align: center;
-  font-size: 80px;
+  font-size: 70px;
 }
+
 body {
   /*fake the "left half" background*/
   background-color: #E7E7E7;

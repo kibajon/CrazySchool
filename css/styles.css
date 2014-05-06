@@ -39,7 +39,6 @@ body {
 }
 
 .namings{
-    font-family: 'Fugaz One', cursive;
     font-size:45px;
     color:#076475;;
     text-align:center;
@@ -48,7 +47,6 @@ body {
 
 .logo_namings{
     text-align:center;
-    font-family:'Lily Script One' cursive;
     padding-top:5px;
     letter-spacing:5px;
 }
@@ -92,8 +90,4 @@ width: 460px;
 transition: all 0.2s ease-in-out;
 background: #2a3640;
 color: #fff;
-}
-
-{
-
 }
